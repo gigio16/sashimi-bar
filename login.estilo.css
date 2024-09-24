@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #1e1e1e; 
+    color: #fff; 
+}
+
+
+.container {
+    background-color: #f07848; 
+    width: 400px; 
+    border-radius: 20px; 
+    padding: 20px;
+    text-align: center; 
+    color: #ffffff; /
+}
+
+/* Título principal */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+/* Subtítulo */
+.container h2 {
+    font-size: 22px; 
+    margin-bottom: 20px; 
+    font-family: 'Comic Sans MS', sans-serif; 
+}
+
+/* Título da seção de login */
+.container h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: left; 
+}
+
+/* Imagem */
+.container img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Formulário de login */
+form {
+    text-align: left; 
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; 
+    margin-bottom: 15px; 
+    border-radius: 10px;
+    background-color: #FFB695; 
+    color: #000; 
+    font-size: 16px;
+}
+
+/* Botão de próximo */
+.button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    color: #f07848;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.button:hover {
+    background-color: #ffe0d0;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+    .container {
+        width: 80%; 
+    }
+}

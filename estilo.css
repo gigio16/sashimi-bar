@@ -1,0 +1,23 @@
+/* Todos as imports devem ser colocadas no inicio */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@700&family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    background-color: burlywood;
+}
+
+.figura{
+    width: 199px;
+}
+.figura2{
+    width: 100px;
+}
+
+/*  Classe para configuração de fonte */
+.fonte{
+    color: rgb(255, 238, 0);
+    size: 1000px;
+    width: 100000px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+   
+}

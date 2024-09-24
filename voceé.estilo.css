@@ -1,0 +1,87 @@
+.menu1{
+    background-color: #f7f7f7;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px; 
+    padding: 20px; 
+    text-align: center; 
+    color: #ffffff; 
+}
+
+/* Estilo do título principal */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+/* Estilo do subtítulo */
+.container h2 {
+    font-size: 18px; 
+    margin-bottom: 30px; 
+    font-weight: normal; 
+}
+
+
+.container img {
+    width: 100px; 
+    margin-bottom: 20px; 
+}
+
+
+.button {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 15px; 
+    border: none; 
+    border-radius: 10px; 
+    background-color: #FFB695; 
+    color: #000; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+.button:hover {
+    background-color: #ffe0d0; 
+}
+
+/* Estilo específico para o botão "Próximo" */
+.next-button {
+    background-color: #f7f7f7; 
+    color: #f07848; 
+}
+
+/* Estilo do rodapé */
+.footer {
+    margin-top: 15px; 
+}
+
+/* Estilo do link no rodapé */
+.footer a {
+    color: #fff;
+    text-decoration: none; 
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+    .container {
+        width: 80%; 
+    }
+}
