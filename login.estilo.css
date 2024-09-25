@@ -7,18 +7,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-color: #1e1e1e; 
-    color: #fff; 
+    background-color: #000000;
+    color: #9c6028; 
 }
 
 
 .container {
-    background-color: #f07848; 
+    background-color: #ff4800;
     width: 400px; 
     border-radius: 20px; 
     padding: 20px;
     text-align: center; 
-    color: #ffffff; /
+    color: #000000; 
 }
 
 /* Título principal */
@@ -26,6 +26,7 @@ body {
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: bold; 
+    color: #000;
 }
 
 /* Subtítulo */
@@ -33,6 +34,7 @@ body {
     font-size: 22px; 
     margin-bottom: 20px; 
     font-family: 'Comic Sans MS', sans-serif; 
+    color: #000;
 }
 
 /* Título da seção de login */
@@ -76,7 +78,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-bottom: 15px;
     border: none;
     border-radius: 10px;
-    background-color: #f7f7f7;
+    background-color: #000000;
     color: #f07848;
     font-size: 16px;
     cursor: pointer;
@@ -84,7 +86,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 /* Efeito ao passar o mouse */
 .button:hover {
-    background-color: #ffe0d0;
+    background-color: #000000;
 }
 
 /* Rodapé */
@@ -103,4 +105,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     .container {
         width: 80%; 
     }
+}
+.menu{
+    background-color: white;
 }
